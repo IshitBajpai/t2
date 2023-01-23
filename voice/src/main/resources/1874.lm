@@ -1,0 +1,73 @@
+Language model created by QuickLM on Sun Jan 15 10:28:07 EST 2023
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 11 sentences and 14 words
+
+\data\
+ngram 1=14
+ngram 2=23
+ngram 3=13
+
+\1-grams:
+-0.8037 </s> -0.3010
+-0.8037 <s> -0.2268
+-1.8451 CIRCLE -0.2268
+-1.8451 FIFTY -0.2268
+-1.8451 GAME -0.2268
+-1.5441 HUNDRED -0.2268
+-1.8451 MENU -0.2268
+-1.8451 ONE -0.2884
+-1.8451 PAUSE -0.2268
+-1.8451 RECTANGLE -0.2268
+-1.8451 START -0.2268
+-1.8451 SUBMIT -0.2268
+-1.8451 TWO -0.2884
+-1.8451 VIEW -0.2268
+
+\2-grams:
+-1.3424 <s> CIRCLE 0.0000
+-1.3424 <s> FIFTY 0.0000
+-1.3424 <s> GAME 0.0000
+-1.3424 <s> MENU 0.0000
+-1.3424 <s> ONE 0.0000
+-1.3424 <s> PAUSE 0.0000
+-1.3424 <s> RECTANGLE 0.0000
+-1.3424 <s> START 0.0000
+-1.3424 <s> SUBMIT 0.0000
+-1.3424 <s> TWO 0.0000
+-1.3424 <s> VIEW 0.0000
+-0.3010 CIRCLE </s> -0.3010
+-0.3010 FIFTY </s> -0.3010
+-0.3010 GAME </s> -0.3010
+-0.3010 HUNDRED </s> -0.3010
+-0.3010 MENU </s> -0.3010
+-0.3010 ONE HUNDRED 0.0000
+-0.3010 PAUSE </s> -0.3010
+-0.3010 RECTANGLE </s> -0.3010
+-0.3010 START </s> -0.3010
+-0.3010 SUBMIT </s> -0.3010
+-0.3010 TWO HUNDRED 0.0000
+-0.3010 VIEW </s> -0.3010
+
+\3-grams:
+-0.3010 <s> CIRCLE </s>
+-0.3010 <s> FIFTY </s>
+-0.3010 <s> GAME </s>
+-0.3010 <s> MENU </s>
+-0.3010 <s> ONE HUNDRED
+-0.3010 <s> PAUSE </s>
+-0.3010 <s> RECTANGLE </s>
+-0.3010 <s> START </s>
+-0.3010 <s> SUBMIT </s>
+-0.3010 <s> TWO HUNDRED
+-0.3010 <s> VIEW </s>
+-0.3010 ONE HUNDRED </s>
+-0.3010 TWO HUNDRED </s>
+
+\end\
